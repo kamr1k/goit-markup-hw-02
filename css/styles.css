@@ -1,0 +1,22 @@
+:root {
+    --main-title-color: #ffffff;
+    --second-title-color: #212121;
+    --main-text-color: #212121;
+    --second-text-color: #757575;
+    --third-text-color: #2196F3;
+    --accent-color: #2196F3;
+    --button-color: #2196F3;
+    --header-text-color: #212121;
+}
+body {
+    font-family: "Open-sans", sans-serif;
+
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
