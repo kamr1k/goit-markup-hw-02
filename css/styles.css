@@ -42,46 +42,29 @@ body {
 .link {
     text-decoration: none;
     color: inherit;
-
 }
 
 .link.current {
     color: var(--highlight-color);
 }
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-    
-}
-
-/*Хэдер*/
+/*-------------------------Хэдер--------------*/
 
 .studio-header {
     color: var(--studio-header-color);
 }
 .webstudio {
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--btn-color);
 }
 
-.webstudio:hover, .webstudio:focus {
+.webstudio:hover, 
+.webstudio:focus {
     color: var(--highlight-color);
 }
-
 
 .header-li {
     font-weight: 500;
@@ -89,7 +72,9 @@ img {
     line-height: 1.14;
     color: var(--header-nav-color);
 }
-.header-li:focus, .header-li:hover {
+
+.header-li:focus,
+.header-li:hover {
     color: var(--btn-text-color);
     background-color: var(--highlight-color);
 }
@@ -101,12 +86,13 @@ img {
     color: var(--header-contact-color);
 }
 
-.header-contact:hover, .header-contact:focus {
+.header-contact:hover, 
+.header-contact:focus {
     color: var(--btn-text-color);
     background-color: var(--btn-color);
 }
 
-/*Футер*/
+/*-------------------------Футер*/
 
 .footer {
     background-color: var(--background-footer-color); 
@@ -115,7 +101,7 @@ img {
 
 .footer-webstudio {
     font-family: Raleway;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--btn-color);
@@ -133,35 +119,26 @@ img {
     font-size: 14px;
     line-height: 1.71;
     color: var(--footer-link-color);
-    
 }
-.footer-link:focus, .footer-link:hover {
+
+.footer-link:focus, 
+.footer-link:hover {
     background-color: var(--highlight-color);
     color: var(--studio-footer-color);
-
 }
-
-
 
 .studio-footer {
     color: var(--studio-footer-color);
 }
-    
-
-
-                                                /*СТУДИЯ*/
-
 
 /*Герой*/
+
 .hero {
     background-color: var(--background-hero-color);
     text-align: center;
 }
 
-
 .hero-main-title {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -173,11 +150,11 @@ img {
     cursor: pointer;
     color: var(--btn-text-color);
     background-color: var(--btn-color);
-    font-family: Roboto;
-    font-weight: bold;
+    font-weight: 7001;
     font-size: 16px;
     line-height: 1.87;
 }
+
 /*Наши-сильные-стороны*/
 
 .features-h {
@@ -230,32 +207,9 @@ img {
 
 
 
-                                            /*ПОРТФОЛИО*/
-/*Фильтры*/
+                    /*PORTFOLIO*/
 
-.filter {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-
-.filter-ul {  
-    display: flex;
-    justify-content: center;
-
-    margin-bottom: 34px;
-     
-}
-
-.filter-li {
-
-}
-
-.filter-li:not(:last-child) {
-    margin-right: 8px;
-}
-
-
+                    /*Buttons*/
 
 .filter-btn {
     cursor: pointer;
@@ -267,55 +221,35 @@ img {
     
 }
 
-.filter-btn:hover, .filter-btn:focus {
+.filter-btn:hover, 
+.filter-btn:focus {
     background-color: var(--highlight-color);
     color: var(--btn-text-color);
 }
 
-
-
-.gallery-div {
-
-}
-.gallery-ul {
-    display: flex;
-    flex-wrap: wrap;
-    
-    margin-left: calc(-1 * var(--card-set-gap));
-    margin-top: calc(-1 * var(--card-set-gap));
-}
-
-.gallery-li {
-    flex-basis: calc(100%/ 3 - var(--card-set-gap));
-    
-    width: 370px;
-    margin-top: var(--card-set-gap);
-    margin-left: var(--card-set-gap);
-
-
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
-}
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}   
 
 .gallery-link {
 
 }
 
 .gallery-h {
-    margin-top: 20px;
-    margin-left: 24px;
-
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     color: var(--title-h3-color);
-    
 }
 
 .gallery-text {
-    margin-top: 4px;
-    margin-left: 24px;
-
     font-size: 16px;
     line-height: 1.875;
     color: var(--main-text-color);
