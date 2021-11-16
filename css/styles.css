@@ -150,7 +150,7 @@ body {
     cursor: pointer;
     color: var(--btn-text-color);
     background-color: var(--btn-color);
-    font-weight: 7001;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
 }
@@ -159,7 +159,7 @@ body {
 
 .features-h {
     margin-bottom: 10px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     color: var(--title-h3-color);
@@ -174,7 +174,7 @@ body {
 
 /*Чем-мы=занимаемся*/
 .we-do-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     color: var(--title-h2-color);
@@ -186,7 +186,7 @@ body {
 }
 
 .team-title {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     color: var(--title-h2-color);
@@ -243,7 +243,7 @@ body {
 }
 
 .gallery-h {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     color: var(--title-h3-color);
